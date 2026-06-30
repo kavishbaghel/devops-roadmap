@@ -648,5 +648,3 @@ This is a frequent point of confusion during incident response: a PDB provides *
 - `podFailurePolicy` lets Jobs distinguish "real failure" from "infrastructure preemption," critical for batch workloads on spot/preemptible capacity.
 - Native Kubernetes Secrets are base64-encoded, not encrypted — encryption-at-rest and external secret managers (Vault + External Secrets Operator) are the production-grade answer.
 - PodDisruptionBudgets govern *voluntary* disruptions only, via the Eviction API specifically — and the most common production incident pattern is a PDB so strict it blocks all node drains/upgrades indefinitely.
-
-**Next**: Part 4 covers Kubernetes networking in depth — the model itself, Services, Ingress/Gateway API, NetworkPolicies, and DNS, all of which interact directly with the workload objects covered here.

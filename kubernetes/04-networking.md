@@ -609,4 +609,4 @@ The architectural choice here — generic network-layer federation (Submariner) 
 - `ndots:5` and its associated 5x DNS query multiplication for external calls is a frequently invisible performance tax at scale; NodeLocal DNSCache is the standard production mitigation.
 - Multi-cluster networking splits into network-layer (Submariner) vs mesh-layer (Istio multi-cluster) federation approaches, with the right choice largely determined by whether a service mesh is already in play.
 
-**Next**: Part 5 covers Storage — PersistentVolumes, the CSI, access modes, and the storage patterns that StatefulSets (Part 3.3.1) depend on.
+

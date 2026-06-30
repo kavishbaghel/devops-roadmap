@@ -342,5 +342,3 @@ This same leader-election pattern (via the `client-go` `leaderelection` package)
 - Nearly everything Kubernetes does is built on the **control loop pattern**: observe actual state, compare to desired state, act to reconcile, repeat — forever, independently, per-component.
 - etcd is a CP (consistent, partition-tolerant) system using Raft consensus and quorum — this has direct, practical consequences for cluster sizing and disaster recovery.
 - Leader election prevents split-brain in HA control plane components and is a reusable pattern for your own Operators.
-
-**Next**: Part 2 takes these concepts and maps them onto the actual Kubernetes architecture — control plane components, node components, and the API request flow.

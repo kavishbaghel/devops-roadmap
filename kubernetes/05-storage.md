@@ -252,4 +252,4 @@ volumes:
 - VolumeSnapshots provide a portable backup/clone mechanism, but application-level (not just crash) consistency still needs explicit verification for write-heavy systems.
 - Unbounded `emptyDir` usage is a node-level resource risk, not just a Pod-level one — always set `sizeLimit`.
 
-**Next**: Part 6 covers Scheduling and Resource Management in depth — affinity/anti-affinity, taints/tolerations, autoscaling (HPA/VPA/Cluster Autoscaler/Karpenter), and the PodDisruptionBudget interactions introduced in Part 3.5 revisited at the infrastructure level.
+

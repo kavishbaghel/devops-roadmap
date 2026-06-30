@@ -400,6 +400,4 @@ With SSA, if two different actors (e.g., a GitOps controller and an HPA) both tr
 - kube-proxy's iptables/IPVS/nftables modes represent an evolution toward better Service-routing performance at scale.
 - Every API request flows through authentication → authorization → admission control, in that strict order — and any stage can independently reject a request.
 - The watch/informer pattern is the foundational mechanism behind every controller and Operator you will ever build or operate.
-- API deprecation and version skew policies are not academic — they directly shape safe upgrade procedures (Part 18.1).
-
-**Next**: Part 3 moves from architecture into the workload objects you'll actually write YAML for daily — Pods, Deployments, StatefulSets, DaemonSets, Jobs, and disruption budgets.
+- API deprecation and version skew policies are not academic — they directly shape safe upgrade procedures.

@@ -403,4 +403,4 @@ In cloud environments, this typically means: **security groups/firewall rules** 
 - Runtime security (Falco) fills the detection gap that admission control and static hardening cannot: catching active exploitation in an already-running, already-"compliant" container.
 - Defense-in-depth means NetworkPolicy at the CNI layer *and* node/infrastructure-level egress firewalling — neither alone is a complete answer.
 
-**Next**: Part 8 covers Helm and configuration management — chart authoring, lifecycle hooks, and the GitOps-adjacent comparison between Helm and Kustomize that sets up Part 14's CI/CD material.
+

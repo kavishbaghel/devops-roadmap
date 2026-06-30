@@ -258,5 +258,3 @@ This decision directly sets up Part 14 (GitOps and CI/CD) — both ArgoCD and Fl
 - Helm hooks run outside normal resource-apply ordering and are not cleaned up automatically on uninstall unless explicitly handled — a common source of "why didn't uninstall remove everything" confusion.
 - Kustomize's no-templating, patch-based philosophy trades expressive power for review-simplicity — bases stay plain, valid YAML at every layer.
 - The Helm-vs-Kustomize choice is not either/or in practice; many GitOps setups layer Kustomize patches on top of Helm-rendered bases, and both tools integrate natively with ArgoCD/Flux.
-
-**Next**: Parts 1–8 form the complete core-Kubernetes-fundamentals arc. Part 9 begins the Observability series (Foundations: the three pillars, SLIs/SLOs/error budgets, instrumentation philosophy) — directly applicable to your current sre-bot pipeline work.

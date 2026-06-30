@@ -490,4 +490,4 @@ These Pods consume no real resources (the `pause` image does nothing) but **rese
 - KEDA's main value-adds over raw HPA are scale-to-zero and a far simpler event-source abstraction — it still creates a standard HPA under the hood.
 - Cluster-level scaling latency is real and matters for spike-sensitive workloads; low-priority pause-Pod overprovisioning is the standard mitigation pattern.
 
-**Next**: Part 7 covers Security — authentication/authorization, admission control, and workload/cluster hardening, building directly on the RBAC and ServiceAccount concepts referenced throughout this part.
+
