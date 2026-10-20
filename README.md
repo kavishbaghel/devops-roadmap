@@ -1,7 +1,8 @@
 # devops-roadmap
 
-Devops roadmap for beginners created with AI. This repo covers markdown files for different devops tools and concepts.
+Devops roadmap for beginners. This repo covers resources to learn various DevOps technolgies.
 
 ## Contents
 
 1. [Kubernetes Concepts](./kubernetes/README.md)
+2. [Learn Terraform](./terraform/README.md)
